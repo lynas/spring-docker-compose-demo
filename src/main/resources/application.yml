@@ -3,11 +3,11 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: postgres
-    hikari:
-      jdbc-url: jdbc:postgresql://localhost:5432/postgres
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    username: postgres
+#    password: postgres
+#    hikari:
+#      jdbc-url: jdbc:postgresql://localhost:5432/postgres
 server:
   port: 9090
